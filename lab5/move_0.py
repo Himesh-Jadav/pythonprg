@@ -1,0 +1,13 @@
+l=[1,0,3,5,46,0,0,6,4]
+i=0
+j=0
+while(j<len(l)):
+    if(l[j]!=0):
+        k=l[i]
+        l[i]=l[j]
+        l[j]=k
+        i+=1
+        j+=1
+    else:
+        j+=1
+print(l)
