@@ -4,7 +4,7 @@ def power(num,pow):
    return num*power(num,pow-1)
 x=int(input(" enter value of x :"))
 n=int(input("enter value of n "))
-y=0;
+y=0
 if(n==0):
     y=x
 elif(n==1):
