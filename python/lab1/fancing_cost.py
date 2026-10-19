@@ -1,0 +1,5 @@
+l=int(input(" enter length: "))
+b=int(input(" enter breadth : "))
+cost=int(input(" enter cost per unit : "))
+perimeter=2*(l+b)
+print(perimeter*cost)
